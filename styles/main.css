@@ -1,0 +1,17 @@
+.movies{
+    max-width: 300px;
+}
+
+.container-movies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+img{
+    max-width: 100%;
+}
+
+.now{
+    color: red;
+    text-decoration: none;
+}
